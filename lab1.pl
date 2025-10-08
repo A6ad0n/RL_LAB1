@@ -14,4 +14,4 @@ is_sorted_impl(_, _) :-
     fail.
 
 is_sorted(List) :-
-    is_sorted(<, List), !.
+    is_sorted(<, List).
